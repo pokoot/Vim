@@ -56,12 +56,11 @@ A complete `vim` plugin collection.
 
 > Manual installation is preferred
 
-    Copy .vimrc to C:\Program Files\Vim\_vimrc
+1. Copy `.vimrc` to `C:\Program Files\Vim\_vimrc`
     
-    Move all files in the repository to:
-        C:\Program Files (x86)\Vim\vimfiles\bundle
+2. Move all files in the repository to: `C:\Program Files\Vim\vimfiles\bundle`
 
-
+3. Install [Pathogen](https://github.com/tpope/vim-pathogen).
 
 
 
