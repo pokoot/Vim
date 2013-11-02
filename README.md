@@ -11,14 +11,14 @@ A complete `vim` plugin collection.
 
 * `F4` = nerdtree
 * `F5` = tagbar
-* `F6` = prints the time
-* `F8` = find trailig white spaces
+* `F6` = prints the current time
+* `F8` = find trailing white spaces
 * `Control + d` = Php documentor
 * `Control + spacebar` = syntax auto completion
 * `Control + p` = file finder
 * `\<leader\> + sf` = Sql formatter
-* Auto highlight trailing spaces
-* Auto strip spaces on save
+* Auto highlight trailing white spaces
+* Auto strip white spaces on save
 * Code syntax checker
 
 
@@ -38,7 +38,7 @@ A complete `vim` plugin collection.
     curl -Sso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 
-### Clone repo files as a Pathogen bundle
+### Clone repository files as a Pathogen bundle
 
     cd ~/.vim
     git clone git@github.com:pokoot/vim.git bundle
@@ -55,7 +55,7 @@ A complete `vim` plugin collection.
 
 ## WINDOWS INSTALLATION
 
-    Manuall installtion is preferred
+> Manuall installtion is preferred
 
     Copy .vimrc to C:\Program Files\Vim\_vimrc
     
