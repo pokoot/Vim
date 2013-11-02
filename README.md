@@ -63,5 +63,9 @@ A complete `vim` plugin collection.
 3. Install [Pathogen](https://github.com/tpope/vim-pathogen).
 
 
+## DEPENDENCIES
+
+* [JSLINT](http://www.jslint.com)
+* [CTAG](http://ctags.sourceforge.net/)
 
 
