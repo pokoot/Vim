@@ -16,7 +16,7 @@ A complete `vim` plugin collection.
 * `Control + d` = Php documentor
 * `Control + spacebar` = syntax auto completion
 * `Control + p` = file finder
-* `\<leader\> + sf` = Sql formatter
+* `<leader> + sf` = Sql formatter
 * Auto highlight trailing white spaces
 * Auto strip white spaces on save
 * Code syntax checker
