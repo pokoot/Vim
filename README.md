@@ -25,7 +25,6 @@ A complete `vim` plugin collection.
 ## LINUX INSTALLATION
 
 
-
 ### Backup .vim
 
     cd ~
@@ -55,11 +54,11 @@ A complete `vim` plugin collection.
 
 ## WINDOWS INSTALLATION
 
-> Manuall installtion is preferred
+> Manual installation is preferred
 
     Copy .vimrc to C:\Program Files\Vim\_vimrc
     
-    Move all the files that contains in the repository to:
+    Move all files in the repository to:
         C:\Program Files (x86)\Vim\vimfiles\bundle
 
 
