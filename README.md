@@ -7,6 +7,20 @@ A complete `vim` plugin collection.
 
 ![alt text](https://raw.github.com/pokoot/vim/master/windows.png "Vim Editor")
 
+### Features
+
+* `F4` = nerdtree
+* `F5` = tagbar
+* `F6` = prints the time
+* `F8` = find trailig white spaces
+* `Control + d` = Php documentor
+* `Control + spacebar` = syntax auto completion
+* `Control + p` = file finder
+* `\<leader\> + sf` = Sql formatter
+* Auto highlight trailing spaces
+* Auto strip spaces on save
+* Code syntax checker
+
 
 ## LINUX INSTALLATION
 
@@ -41,7 +55,12 @@ A complete `vim` plugin collection.
 
 ## WINDOWS INSTALLATION
 
+    Manuall installtion is preferred
 
+    Copy .vimrc to C:\Program Files\Vim\_vimrc
+    
+    Move all the files that contains in the repository to:
+        C:\Program Files (x86)\Vim\vimfiles\bundle
 
 
 
