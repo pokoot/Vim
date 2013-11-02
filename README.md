@@ -41,7 +41,7 @@ A complete `vim` plugin collection.
 ### Clone repository files as a Pathogen bundle
 
     cd ~/.vim
-    git clone git@github.com:pokoot/vim.git bundle
+    git clone https://github.com/pokoot/vim bundle
 
 ### Update all submodules
 
