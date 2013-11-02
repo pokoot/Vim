@@ -84,9 +84,9 @@ inoremap <C-D> <ESC>:call PhpDocSingle()<CR>i
 nnoremap <C-D> :call PhpDocSingle()<CR>
 vnoremap <C-D> :call PhpDocRange()<CR>
 
-" F5 = Prints the time
-:nnoremap <F5> "=strftime("%a, %d %b %Y - %X ")<CR>P
-:inoremap <F5> <C-R>=strftime("%a, %d %b %Y - %X ")<CR>
+" F6 = Prints the time
+:nnoremap <F6> "=strftime("%a, %d %b %Y - %X ")<CR>P
+:inoremap <F6> <C-R>=strftime("%a, %d %b %Y - %X ")<CR>
 
 " F8 = Search trailing white spaces
 :nnoremap <F8> /\s\+$<CR>
