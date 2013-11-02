@@ -1,4 +1,9 @@
 vim
 ===
 
-A complete vim plugin collection for best experience as a LAMP programmer
+A complete vim plugin collection. The plugin collection includes most of the popular plugin as a web programmer.
+
+
+
+
+
