@@ -119,7 +119,7 @@ autocmd FileType php,html,css,javascript,sql,c,cpp,python,ruby,java autocmd BufW
 let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
 let g:syntastic_javascript_checkers=['jslint', 'jsl', 'closurecompiler', 'gjslint' , 'jshint']
 let g:syntastic_enable_signs=1
-let g:syntastic_error_symbol='>'
+let g:syntastic_error_symbol='>>'
 let g:syntastic_warning_symbol='!'
 
 " CtrlP
