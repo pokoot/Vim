@@ -66,6 +66,10 @@ set hlsearch                        " highlight search terms
 set incsearch                       " show search matches as you type
 set history=1000                    " remember more commands and search history
 set undolevels=1000                 " use many muchos levels of undo
+set nobackup                        " no backup files
+set nowritebackup                   " only in case you don't want a backup file while editing
+set noswapfile                      " no swap files
+
 
 
 " Custom fonts
@@ -110,16 +114,12 @@ autocmd BufWinLeave * call clearmatches()
 " Auto strip white spaces on ":w"
 autocmd FileType php,html,css,javascript,sql,c,cpp,python,ruby,java autocmd BufWritePre <buffer> :%s/\s\+$//e
 
-" Backup directory
-set backupdir=C:\temp
-set directory=C:\temp
-
 " Syntastic
 " https://github.com/scrooloose/syntastic
 let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
 let g:syntastic_javascript_checkers=['jslint', 'jsl', 'closurecompiler', 'gjslint' , 'jshint']
 let g:syntastic_enable_signs=1
-let g:syntastic_error_symbol='>>'
+let g:syntastic_error_symbol='>'
 let g:syntastic_warning_symbol='!'
 
 " CtrlP

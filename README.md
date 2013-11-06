@@ -46,7 +46,7 @@ A complete `vim` plugin collection.
 
     cd ~/.vim/bundle
     git submodule update --init --recursive
-    
+
 ### Copy vimrc
 
     cd ~/.vim/bundle
@@ -57,7 +57,7 @@ A complete `vim` plugin collection.
 > Manual installation is preferred
 
 1. Copy `.vimrc` to `C:\Program Files\Vim\_vimrc`
-    
+
 2. Move all files in the repository to: `C:\Program Files\Vim\vimfiles\bundle`
 
 3. Install [Pathogen](https://github.com/tpope/vim-pathogen).
