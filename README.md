@@ -50,7 +50,7 @@ A complete `vim` plugin collection.
 ### Copy vimrc
 
     cd ~/.vim/bundle
-    cp .vimrc ../.vimrc
+    cp .vimrc ~/.vimrc
 
 ## WINDOWS INSTALLATION
 
@@ -66,6 +66,9 @@ A complete `vim` plugin collection.
 ## DEPENDENCIES
 
 * [JSLINT](http://www.jslint.com)
+
+
+
 * [CTAG](http://ctags.sourceforge.net/)
 
 
