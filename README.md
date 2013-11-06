@@ -71,5 +71,5 @@ A complete `vim` plugin collection.
 
 [CTAG](http://ctags.sourceforge.net/)
 
-apt-get install exuberant-ctags
+    apt-get install exuberant-ctags
 
