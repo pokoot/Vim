@@ -5,7 +5,7 @@ A complete `vim` plugin collection.
 
 ### Sample Screenshot
 
-![alt text](https://raw.github.com/pokoot/vim/master/windows.png "Vim Editor")
+![alt text](https://raw.github.com/pokoot/vim/master/screenshot.png "Vim Editor")
 
 ### Features
 
