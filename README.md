@@ -25,30 +25,26 @@ A complete `vim` plugin collection.
 ## LINUX INSTALLATION
 
 
-### Backup .vim
+### Creat the Directory
 
     $ cd ~ && mkdir .vim
 
 ### Install Pathogen
 
-    mkdir ~/.vim/autoload
-    curl -Sso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+    $ mkdir ~/.vim/autoload && curl -Sso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 
 ### Clone repository files as a Pathogen bundle
 
-    cd ~/.vim
-    git clone https://github.com/pokoot/vim bundle
+    $ cd ~/.vim && git clone https://github.com/pokoot/vim bundle
 
 ### Update all submodules
 
-    cd ~/.vim/bundle
-    git submodule update --init --recursive
+    $ cd ~/.vim/bundle && git submodule update --init --recursive
 
 ### Copy vimrc
 
-    cd ~/.vim/bundle
-    cp .vimrc ~/.vimrc
+    $ cd ~/.vim/bundle && cp .vimrc ~/.vimrc
 
 ## WINDOWS INSTALLATION
 
