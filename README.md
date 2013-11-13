@@ -59,11 +59,7 @@ A complete `vim` plugin collection.
 
 ## DEPENDENCIES
 
-[JSLINT](http://www.jslint.com)
-
-
-
 [CTAG](http://ctags.sourceforge.net/)
 
-    apt-get install exuberant-ctags
+    $ sudo apt-get install exuberant-ctags
 
