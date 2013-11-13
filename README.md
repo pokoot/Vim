@@ -27,9 +27,7 @@ A complete `vim` plugin collection.
 
 ### Backup .vim
 
-    cd ~
-    mv .vim .vim.backup
-    mkdir .vim
+    $ cd ~ && mkdir .vim
 
 ### Install Pathogen
 
