@@ -82,6 +82,10 @@ if has("gui_running")
 endif
 
 
+" Limit marker to 80 and 120
+let &colorcolumn="80,".join(range(120,120),",")
+
+
 " CTRL + D = Php Documentator
 " Custom codes
 inoremap <C-D> <ESC>:call PhpDocSingle()<CR>i
