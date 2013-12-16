@@ -5,7 +5,7 @@ A complete `vim` plugin collection.
 
 ### Sample Screenshot
 
-![alt text](https://raw.github.com/pokoot/vim/master/screenshot.png "Vim Editor")
+![alt text](https://raw.github.com/pokoot/Vim/master/screenshot.png "Vim Editor")
 
 ### Features
 
@@ -36,7 +36,7 @@ A complete `vim` plugin collection.
 
 ### Clone repository files as a Pathogen bundle
 
-    $ cd ~/.vim && git clone https://github.com/pokoot/vim bundle
+    $ cd ~/.vim && git clone https://github.com/pokoot/Vim bundle
 
 ### Update all submodules
 
