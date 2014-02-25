@@ -116,7 +116,7 @@ autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 
 " Auto strip white spaces on ":w"
-autocmd FileType php,html,css,javascript,sql,c,cpp,python,ruby,java autocmd BufWritePre <buffer> :%s/\s\+$//e
+autocmd FileType php,html,css,javascript,sql,c,cpp,python,ruby,java,cf autocmd BufWritePre <buffer> :%s/\s\+$//e
 
 " Syntastic
 " https://github.com/scrooloose/syntastic
