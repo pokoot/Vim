@@ -117,15 +117,9 @@ autocmd BufWinLeave * call clearmatches()
 
 " Auto strip white spaces on ":w"
 autocmd FileType php,html,css,javascript,sql,c,cpp,python,ruby,java,cf autocmd BufWritePre <buffer> :%s/\s\+$//e
-autocmd FileType php,html,css,javascript,sql,c,cpp,python,ruby,java,cf setlocal noeol binary
 
-" Syntastic
-" https://github.com/scrooloose/syntastic
-let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
-let g:syntastic_javascript_checkers=['jslint', 'jsl', 'closurecompiler', 'gjslint' , 'jshint']
-let g:syntastic_enable_signs=1
-let g:syntastic_error_symbol='>>'
-let g:syntastic_warning_symbol='!'
+" No end of line on last line or EOF
+autocmd FileType php,html,css,javascript,sql,c,cpp,python,ruby,java,cf setlocal noeol binary
 
 " CtrlP
 " https://github.com/kien/ctrlp.vim
